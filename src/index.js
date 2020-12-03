@@ -26,6 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
     return response.json();
   })
   .then(function(object) {
-    
+    console.log(object)
   })
 })
