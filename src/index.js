@@ -22,4 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Accept": "application/json"
     }
   })
+  .then(function(response) {
+    response.
+  })
 })
