@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://localhost:3000/toys", {
-    Method: "GET"
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json"
+    }
   })
 })
