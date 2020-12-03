@@ -23,6 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
   .then(function(response) {
-    response.
+    return response.json();
   })
 })
